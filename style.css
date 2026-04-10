@@ -627,6 +627,74 @@ body {
   box-shadow: 0 8px 24px rgba(94, 92, 230, 0.35);
 }
 
+/* ─── Privacy Policy ────────────────────────────────────────────── */
+.privacy {
+  padding: 120px 24px 80px;
+}
+
+.privacy-inner {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.privacy-title {
+  font-size: 44px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.privacy .privacy-updated {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.privacy h2 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.privacy h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.privacy ul {
+  padding-left: 24px;
+  margin-bottom: 16px;
+}
+
+.privacy li {
+  margin-bottom: 8px;
+}
+
+.privacy p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.privacy a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.privacy a:hover {
+  text-decoration: underline;
+}
+
 /* ─── Footer ────────────────────────────────────────────────────── */
 .footer {
   border-top: 1px solid var(--border);
@@ -655,15 +723,17 @@ body {
 }
 .footer-links a {
   font-size: 13px;
+  font-weight: 600;
   color: var(--text-sub);
   text-decoration: none;
 }
 .footer-links a:hover {
-  color: var(--accent);
+  color: var(--text);
 }
 
 .footer-copy {
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 500;
   color: var(--text-sub);
 }
 
@@ -730,6 +800,19 @@ body {
   }
   .whatsnew-card p {
     font-size: 16px;
+  }
+
+  .privacy-title {
+    font-size: 32px;
+  }
+  .privacy h2 {
+    font-size: 20px;
+  }
+  .privacy h3 {
+    font-size: 15px;
+  }
+  .privacy p {
+    font-size: 15px;
   }
 
   .footer-inner {
