@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sailer.shudev.app/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/" />
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/" />
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/en/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/support.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/support.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/ja/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/support.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/support.html" />
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/en/privacypolicy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/privacypolicy.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/privacypolicy.html" />
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/ja/privacypolicy.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/privacypolicy.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/privacypolicy.html" />
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/en/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/blog.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/blog.html" />
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/ja/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/blog.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/blog.html" />
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/en/guide/play_audio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/guide/play_audio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/guide/play_audio.html" />
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/ja/guide/play_audio.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/guide/play_audio.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/guide/play_audio.html" />
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/en/guide/markers.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/guide/markers.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/guide/markers.html" />
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sailer.shudev.app/ja/guide/markers.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/guide/markers.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/guide/markers.html" />
+    <priority>0.6</priority>
+  </url>
+</urlset>
