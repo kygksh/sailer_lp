@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sailer - Open and play a file</title>
+    <link rel="alternate" hreflang="ja" href="https://sailer.shudev.app/ja/guide/play_audio.html" />
+    <link rel="alternate" hreflang="en" href="https://sailer.shudev.app/en/guide/play_audio.html" />
+    <link rel="alternate" hreflang="x-default" href="https://sailer.shudev.app/en/guide/play_audio.html" />
+    <script>
+      (function () {
+        const lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+        const target = lang.startsWith('ja') ? '../ja/guide/play_audio.html' : '../en/guide/play_audio.html';
+        location.replace(target);
+      })();
+    </script>
+    <meta http-equiv="refresh" content="0; url=../en/guide/play_audio.html" />
+  </head>
+  <body>
+    <p><a href="../en/guide/play_audio.html">Continue in English</a> / <a href="../ja/guide/play_audio.html">日本語で続ける</a></p>
+  </body>
+</html>
