@@ -104,7 +104,8 @@ function articleTemplate(meta, bodyHtml) {
       <div class="nav-inner">
         <a href="../index.html" class="nav-logo">
           <img
-            src="../../images/AppIcon-iOS-Default-1024x1024@1x.png"
+            src="../../images/nav-icon.png"
+            srcset="../../images/nav-icon.png 1x, ../../images/nav-icon@2x.png 2x, ../../images/nav-icon@3x.png 3x"
             alt="Sailer"
             class="nav-icon"
           />
@@ -241,7 +242,8 @@ function blogIndexTemplate(articles) {
       <div class="nav-inner">
         <a href="index.html" class="nav-logo">
           <img
-            src="../images/AppIcon-iOS-Default-1024x1024@1x.png"
+            src="../images/nav-icon.png"
+            srcset="../images/nav-icon.png 1x, ../images/nav-icon@2x.png 2x, ../images/nav-icon@3x.png 3x"
             alt="Sailer"
             class="nav-icon"
           />
