@@ -340,8 +340,8 @@ function main() {
   // Update sitemap
   const sitemapPath = path.join(ROOT, "sitemap.xml");
   let sitemap = fs.readFileSync(sitemapPath, "utf-8");
-  // Remove existing blog article entries
-  sitemap = sitemap.replace(/\n  <!-- blog articles -->[\s\S]*?<!-- \/blog articles -->/g, "");
+  // Remove existing blog article entries (including trailing newline)
+  sitemap = sitemap.replace(/  <!-- blog articles -->[\s\S]*?  <!-- \/blog articles -->\n/g, "");
   // Build new entries
   const articleEntries = articles
     .map(
@@ -354,7 +354,7 @@ function main() {
   // Insert before </urlset>
   sitemap = sitemap.replace(
     "</urlset>",
-    `\n  <!-- blog articles -->\n${articleEntries}\n  <!-- /blog articles -->\n</urlset>`
+    `  <!-- blog articles -->\n${articleEntries}\n  <!-- /blog articles -->\n</urlset>`
   );
   fs.writeFileSync(sitemapPath, sitemap);
   console.log(`  -> sitemap.xml updated`);
