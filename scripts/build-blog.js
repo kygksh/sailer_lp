@@ -15,7 +15,11 @@ function parseFrontmatter(raw) {
   for (const line of match[1].split("\n")) {
     const i = line.indexOf(":");
     if (i === -1) continue;
-    meta[line.slice(0, i).trim()] = line.slice(i + 1).trim();
+    const key = line.slice(0, i).trim();
+    const raw = line.slice(i + 1).trim();
+    if (raw === "true") meta[key] = true;
+    else if (raw === "false") meta[key] = false;
+    else meta[key] = raw;
   }
   return { meta, body: match[2].trim() };
 }
@@ -158,7 +162,17 @@ function articleTemplate(meta, bodyHtml) {
         <h1 class="blog-article-title">${meta.title}</h1>
 
 ${bodyHtml}
-        <div class="blog-share">
+${meta.show_cta ? `        <div class="blog-cta">
+          <a
+            class="btn-appstore-badge"
+            href="https://apps.apple.com/jp/app/sailer-音声ファイル再生/id6756638375"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="../../images/ja/appstore-badge-jp.svg" alt="App Storeでダウンロード" />
+          </a>
+        </div>
+` : ""}        <div class="blog-share">
           <div class="blog-share-buttons">
             <a href="https://twitter.com/intent/tweet?url=https://sailer.shudev.app/ja/blog/${meta.slug}.html&text=${encodeURIComponent(meta.title)}" target="_blank" rel="noopener" class="blog-share-btn blog-share-x" aria-label="Xでシェア">
               <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
