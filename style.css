@@ -827,6 +827,10 @@ div.blog-list-thumb {
 .blog-article {
   padding-top: 64px;
   padding-bottom: 80px;
+
+  font-feature-settings: "palt";
+  text-spacing-trim: trim-start;
+  text-autospace: normal;
 }
 
 .blog-article-inner {
